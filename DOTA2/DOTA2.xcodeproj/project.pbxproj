@@ -33,6 +33,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E978D9052068B835001F37D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E978D9062068B851001F37D5 /* Main */,
+				E978D9072068B85F001F37D5 /* Tools */,
+				E978D9082068B86B001F37D5 /* Douyu */,
+				E978D9092068B879001F37D5 /* Panda */,
+				E978D90A2068B89A001F37D5 /* Huya */,
+				E978D90B2068B8A4001F37D5 /* Huomao */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E978D9062068B851001F37D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E978D9072068B85F001F37D5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E978D9082068B86B001F37D5 /* Douyu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Douyu;
+			sourceTree = "<group>";
+		};
+		E978D9092068B879001F37D5 /* Panda */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Panda;
+			sourceTree = "<group>";
+		};
+		E978D90A2068B89A001F37D5 /* Huya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Huya;
+			sourceTree = "<group>";
+		};
+		E978D90B2068B8A4001F37D5 /* Huomao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Huomao;
+			sourceTree = "<group>";
+		};
 		E9B7419720653F64006498BF = {
 			isa = PBXGroup;
 			children = (
@@ -53,68 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				E9B741A320653F64006498BF /* AppDelegate.swift */,
-				E9E2B80D2068B13D0031DC89 /* Classes */,
+				E978D9052068B835001F37D5 /* Classes */,
 				E9B741A720653F64006498BF /* Main.storyboard */,
 				E9B741AA20653F64006498BF /* Assets.xcassets */,
 				E9B741AC20653F64006498BF /* LaunchScreen.storyboard */,
 				E9B741AF20653F64006498BF /* Info.plist */,
 			);
 			path = DOTA2;
-			sourceTree = "<group>";
-		};
-		E9E2B80D2068B13D0031DC89 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E9E2B8112068B13D0031DC89 /* Main */,
-				E9E2B8132068B13D0031DC89 /* Tools */,
-				E9E2B80E2068B13D0031DC89 /* Douyu */,
-				E9E2B8122068B13D0031DC89 /* Panda */,
-				E9E2B8102068B13D0031DC89 /* Huya */,
-				E9E2B80F2068B13D0031DC89 /* Huomao */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		E9E2B80E2068B13D0031DC89 /* Douyu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Douyu;
-			sourceTree = "<group>";
-		};
-		E9E2B80F2068B13D0031DC89 /* Huomao */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Huomao;
-			sourceTree = "<group>";
-		};
-		E9E2B8102068B13D0031DC89 /* Huya */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Huya;
-			sourceTree = "<group>";
-		};
-		E9E2B8112068B13D0031DC89 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		E9E2B8122068B13D0031DC89 /* Panda */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Panda;
-			sourceTree = "<group>";
-		};
-		E9E2B8132068B13D0031DC89 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

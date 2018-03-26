@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/guyuanshan/Desktop/DOTA2TV/DOTA2/DOTA2/Classes"
+      name = "Classes">
+      <Group
+         location = "container:"
+         name = "New Group">
+      </Group>
+      <Group
+         location = "group:Main"
+         name = "Main">
+      </Group>
+      <Group
+         location = "group:Tools"
+         name = "Tools">
+      </Group>
+   </Group>
    <FileRef
-      location = "self:DOTA2.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
