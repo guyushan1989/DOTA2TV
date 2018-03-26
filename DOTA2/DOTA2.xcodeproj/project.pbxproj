@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93532B0206926FD00927667 /* Dota2TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93532AF206926FD00927667 /* Dota2TabBarViewController.swift */; };
+		E96109C02068F5F500ABD74A /* Douyu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96109BF2068F5F500ABD74A /* Douyu.storyboard */; };
+		E96109C42068F70300ABD74A /* Panda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96109C32068F70300ABD74A /* Panda.storyboard */; };
 		E9B741A420653F64006498BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B741A320653F64006498BF /* AppDelegate.swift */; };
 		E9B741A920653F64006498BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B741A720653F64006498BF /* Main.storyboard */; };
 		E9B741AB20653F64006498BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B741AA20653F64006498BF /* Assets.xcassets */; };
 		E9B741AE20653F64006498BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B741AC20653F64006498BF /* LaunchScreen.storyboard */; };
+		E9D96BE22069232900E147A4 /* Huya.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D96BE12069232800E147A4 /* Huya.storyboard */; };
+		E9D96BE4206923C900E147A4 /* Huomao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D96BE3206923C900E147A4 /* Huomao.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E93532AF206926FD00927667 /* Dota2TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota2TabBarViewController.swift; sourceTree = "<group>"; };
+		E96109BF2068F5F500ABD74A /* Douyu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Douyu.storyboard; sourceTree = "<group>"; };
+		E96109C32068F70300ABD74A /* Panda.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Panda.storyboard; sourceTree = "<group>"; };
 		E9B741A020653F64006498BF /* DOTA2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTA2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B741A320653F64006498BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B741A820653F64006498BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B741AA20653F64006498BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B741AD20653F64006498BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9B741AF20653F64006498BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D96BE12069232800E147A4 /* Huya.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Huya.storyboard; sourceTree = "<group>"; };
+		E9D96BE3206923C900E147A4 /* Huomao.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Huomao.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E96109BD2068F4F600ABD74A /* Douyu */ = {
+			isa = PBXGroup;
+			children = (
+				E96109BF2068F5F500ABD74A /* Douyu.storyboard */,
+			);
+			path = Douyu;
+			sourceTree = "<group>";
+		};
+		E96109BE2068F50500ABD74A /* Panda */ = {
+			isa = PBXGroup;
+			children = (
+				E96109C32068F70300ABD74A /* Panda.storyboard */,
+			);
+			path = Panda;
+			sourceTree = "<group>";
+		};
 		E9B7419720653F64006498BF = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +78,11 @@
 		E9B741A220653F64006498BF /* DOTA2 */ = {
 			isa = PBXGroup;
 			children = (
+				E96109BD2068F4F600ABD74A /* Douyu */,
+				E96109BE2068F50500ABD74A /* Panda */,
+				E9D96BDF206922F000E147A4 /* Huya */,
+				E9D96BE02069230400E147A4 /* Huomao */,
+				E93532AF206926FD00927667 /* Dota2TabBarViewController.swift */,
 				E9B741A320653F64006498BF /* AppDelegate.swift */,
 				E9B741A720653F64006498BF /* Main.storyboard */,
 				E9B741AA20653F64006498BF /* Assets.xcassets */,
@@ -59,6 +90,22 @@
 				E9B741AF20653F64006498BF /* Info.plist */,
 			);
 			path = DOTA2;
+			sourceTree = "<group>";
+		};
+		E9D96BDF206922F000E147A4 /* Huya */ = {
+			isa = PBXGroup;
+			children = (
+				E9D96BE12069232800E147A4 /* Huya.storyboard */,
+			);
+			path = Huya;
+			sourceTree = "<group>";
+		};
+		E9D96BE02069230400E147A4 /* Huomao */ = {
+			isa = PBXGroup;
+			children = (
+				E9D96BE3206923C900E147A4 /* Huomao.storyboard */,
+			);
+			path = Huomao;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,8 +168,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B741AE20653F64006498BF /* LaunchScreen.storyboard in Resources */,
+				E96109C02068F5F500ABD74A /* Douyu.storyboard in Resources */,
 				E9B741AB20653F64006498BF /* Assets.xcassets in Resources */,
+				E9D96BE22069232900E147A4 /* Huya.storyboard in Resources */,
+				E9D96BE4206923C900E147A4 /* Huomao.storyboard in Resources */,
 				E9B741A920653F64006498BF /* Main.storyboard in Resources */,
+				E96109C42068F70300ABD74A /* Panda.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B741A420653F64006498BF /* AppDelegate.swift in Sources */,
+				E93532B0206926FD00927667 /* Dota2TabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Mp-Ka-Wi7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Huomao-->
+        <scene sceneID="SB8-sK-Hvg">
+            <objects>
+                <viewController id="oHV-VO-eLx" userLabel="Huomao" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IcG-38-CYL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.75233274698257446" green="0.16563388705253601" blue="0.082989491522312164" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="D6o-Di-kxn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Huomao" id="NXe-ZC-ASg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUP-Ew-N5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="1230"/>
+        </scene>
+        <!--Huomao-->
+        <scene sceneID="ysx-aX-RFk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Mp-Ka-Wi7" userLabel="Huomao" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Huomao" image="tv (2)" id="dcU-jk-UJq" userLabel="Huomao"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zzL-ZA-LiX">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oHV-VO-eLx" kind="relationship" relationship="rootViewController" id="GXy-pJ-79s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fle-1H-6RM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-414" y="1230"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tv (2)" width="32" height="32"/>
+    </resources>
+</document>
