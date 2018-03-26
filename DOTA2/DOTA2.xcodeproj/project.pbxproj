@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E9B741A420653F64006498BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B741A320653F64006498BF /* AppDelegate.swift */; };
-		E9B741A620653F64006498BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B741A520653F64006498BF /* ViewController.swift */; };
 		E9B741A920653F64006498BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B741A720653F64006498BF /* Main.storyboard */; };
 		E9B741AB20653F64006498BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B741AA20653F64006498BF /* Assets.xcassets */; };
 		E9B741AE20653F64006498BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B741AC20653F64006498BF /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		E9B741A020653F64006498BF /* DOTA2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTA2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B741A320653F64006498BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9B741A520653F64006498BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9B741A820653F64006498BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B741AA20653F64006498BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B741AD20653F64006498BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +53,68 @@
 			isa = PBXGroup;
 			children = (
 				E9B741A320653F64006498BF /* AppDelegate.swift */,
-				E9B741A520653F64006498BF /* ViewController.swift */,
+				E9E2B80D2068B13D0031DC89 /* Classes */,
 				E9B741A720653F64006498BF /* Main.storyboard */,
 				E9B741AA20653F64006498BF /* Assets.xcassets */,
 				E9B741AC20653F64006498BF /* LaunchScreen.storyboard */,
 				E9B741AF20653F64006498BF /* Info.plist */,
 			);
 			path = DOTA2;
+			sourceTree = "<group>";
+		};
+		E9E2B80D2068B13D0031DC89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9E2B8112068B13D0031DC89 /* Main */,
+				E9E2B8132068B13D0031DC89 /* Tools */,
+				E9E2B80E2068B13D0031DC89 /* Douyu */,
+				E9E2B8122068B13D0031DC89 /* Panda */,
+				E9E2B8102068B13D0031DC89 /* Huya */,
+				E9E2B80F2068B13D0031DC89 /* Huomao */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9E2B80E2068B13D0031DC89 /* Douyu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Douyu;
+			sourceTree = "<group>";
+		};
+		E9E2B80F2068B13D0031DC89 /* Huomao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Huomao;
+			sourceTree = "<group>";
+		};
+		E9E2B8102068B13D0031DC89 /* Huya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Huya;
+			sourceTree = "<group>";
+		};
+		E9E2B8112068B13D0031DC89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E9E2B8122068B13D0031DC89 /* Panda */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Panda;
+			sourceTree = "<group>";
+		};
+		E9E2B8132068B13D0031DC89 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B741A620653F64006498BF /* ViewController.swift in Sources */,
 				E9B741A420653F64006498BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
