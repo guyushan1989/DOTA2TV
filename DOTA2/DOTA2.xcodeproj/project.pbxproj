@@ -43,8 +43,9 @@
 				E978D90A2068B89A001F37D5 /* Huya */,
 				E978D90B2068B8A4001F37D5 /* Huomao */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
+			name = Classes;
+			path = DOTA2/Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 		E978D9062068B851001F37D5 /* Main */ = {
 			isa = PBXGroup;
