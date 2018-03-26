@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E963336F2068C59B0082DF69 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963336E2068C59B0082DF69 /* File.swift */; };
 		E9B741A420653F64006498BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B741A320653F64006498BF /* AppDelegate.swift */; };
 		E9B741A920653F64006498BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B741A720653F64006498BF /* Main.storyboard */; };
 		E9B741AB20653F64006498BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B741AA20653F64006498BF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E963336E2068C59B0082DF69 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = DOTA2/Classes/Main/File.swift; sourceTree = SOURCE_ROOT; };
 		E9B741A020653F64006498BF /* DOTA2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTA2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B741A320653F64006498BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9B741A820653F64006498BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		E978D9062068B851001F37D5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E963336E2068C59B0082DF69 /* File.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B741A420653F64006498BF /* AppDelegate.swift in Sources */,
+				E963336F2068C59B0082DF69 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
